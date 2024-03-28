@@ -9,7 +9,7 @@ export const Error = () => {
                 <h2>Página não encontrada!</h2>
                 <p>Clique no botão abaixo para voltar para a página inicial</p>
                 <div className='button-container'>
-                    <a className="button-error" href='/brunaborges-dev'>
+                    <a className="button-error" href='/bruna_borges/home'>
                         <ChevronLeftIcon />
                         Página Inicial
                     </a>
