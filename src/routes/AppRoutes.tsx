@@ -9,7 +9,7 @@ import { Error } from '../pages/Error-page';
 export const AppRoutes: React.FC = () => {
   return (
     <Routes>
-      <Route path="/bruna_borges/home" element={<Home />} />
+      <Route path="/bruna_borges/" element={<Home />} />
       {/*<Route path="/bruna_borges/sobre" element={<Sobre />} /> */}
       {/*<Route path="/bruna_borges/portifolio" element={<Portifolio />} /> */}
       {/*<Route path="/bruna_borges/contato" element={<Contato />} /> */}

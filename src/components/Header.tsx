@@ -12,7 +12,7 @@ interface HeaderProps {
 
 export const Header: React.FC<HeaderProps> = () => {
   const links = [
-    { title: 'Home', url: '/bruna_borges/home' },
+    { title: 'Home', url: '/bruna_borges/' },
     { title: 'Portifólio', url: '/bruna_borges/portifolio' },
     { title: 'Sobre', url: '/bruna_borges/sobre' },
     { title: 'Contato', url: '/bruna_borges/contato' }
@@ -21,7 +21,7 @@ export const Header: React.FC<HeaderProps> = () => {
   return (
     <header className='header'>
       <nav className='nav'>
-        <Link to="/bruna_borges/home" className="logo-link">
+        <Link to="/bruna_borges/" className="logo-link">
           <img src={bblogo} alt="Bruna Borges logo" className="logo" />
           <div className='logo-name'>
             Bruna Borges
