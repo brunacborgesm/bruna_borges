@@ -1,26 +1,26 @@
 .error-container {
-    width: 70vw;
-    height: 80vh;
+    align-items: center;
     background-color: rgb(28 26 26);
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 40px 0;
     box-shadow: 0 0 7px rgba(100, 100, 100, 0.426);
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    left: 50%;
+    margin: 40px 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    width: 70vw;
 }
 
 .error-texts h1 {
+    background-clip: text;
+    background-image: linear-gradient(90deg, rgb(106, 40, 153) 0%, rgb(135, 133, 133) 100%);
+    color: transparent;
     font-size: 70px;
     margin: 0;
-    background-image: linear-gradient(90deg, rgb(106, 40, 153) 0%, rgb(135, 133, 133) 100%);
     --webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
 }
 
 .error-texts h2 {
@@ -28,30 +28,30 @@
 }
 
 .error-texts {
+    color: rgb(211, 211, 211);
     display: flexbox;
+    font-size: 1.2rem;
     justify-content: center;
     text-align: center;
-    font-size: 1.2rem;
-    color: rgb(211, 211, 211);
 }
 
 .button-container {
-    display: inline-flex;
     align-items: center;
+    display: inline-flex;
+    height: 35px;
     justify-content: center;
     width: 200px;
-    height: 35px;
 }
 
 a.button-error {
-    display: flex;
     align-items: center;
-    text-decoration: none;
-    justify-content: center;
-    cursor: pointer;
     color: rgb(106, 40, 153);
-    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
     height: 100%;
+    text-decoration: none;
+    width: 100%;
 }
 
 a.button-error>*:first-child {
@@ -59,10 +59,10 @@ a.button-error>*:first-child {
 }
 
 a.button-error:hover {
-    color: rgb(211, 211, 211);
-    border: rgb(106, 40, 153) 2px solid;
     background-color: rgb(32, 32, 32);
+    border: rgb(106, 40, 153) 2px solid;
     border-radius: 20px;
+    color: rgb(211, 211, 211);
     transition: 0.2s;
 }
 
