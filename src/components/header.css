@@ -66,3 +66,39 @@ a.logo-link{
 .nav-list li a:hover::after {
     width: 100%;
 }
+
+/* cellphones and tablets */
+@media screen and (max-width: 768px) {
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+
+    .nav-list li {
+        margin-right: 15px;
+    }
+
+    .nav-list li:first-child {
+        display: none;
+    }
+
+    .logo {
+        width: 45px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    a.logo-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: #000;
+    }
+
+    .logo-name{
+        display: none;
+    }
+}
