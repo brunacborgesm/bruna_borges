@@ -18,9 +18,13 @@
     width: 45px;
 }
 
+a.logo-name{
+    color: rgb(29, 29, 29);
+}
+
 a.logo-link{
     align-items: center;
-    color: #000;
+    color: rgb(29, 29, 29);
     display: flex;
     font-size: 1.5rem;
     text-decoration: none;
@@ -60,7 +64,7 @@ a.logo-link{
 }
 
 .nav-list li a:hover {
-    font-weight: 600;
+    color: rgb(29, 29, 29);
 }
 
 .nav-list li a:hover::after {
@@ -73,14 +77,11 @@ a.logo-link{
         display: flex;
         justify-content: space-between;
         padding: 10px 15px;
+        align-items: center;
     }
 
     .nav-list li {
         margin-right: 15px;
-    }
-
-    .nav-list li:first-child {
-        display: none;
     }
 
     .logo {
@@ -88,17 +89,5 @@ a.logo-link{
         display: flex;
         margin-right: 10px;
         width: 45px;
-    }
-    
-    a.logo-link{
-        align-items: center;
-        color: #000;
-        display: flex;
-        font-size: 1.5rem;
-        text-decoration: none;
-    }
-
-    .logo-name{
-        display: none;
     }
 }
