@@ -23,11 +23,15 @@ export const Header: React.FC<HeaderProps> = () => {
       flex
       justify-between
        bg-purple
-      max-w-full
+      w-full
       px-6
       h-20
       items-center
-      border-b-2 border-default-darkpurple border-opacity-15 border-'>
+      bg-bg-darkgreen
+      border-b border-cl-orange
+      fixed
+      text-body
+      '>
       <Link to="/bruna_borges/" className='flex'>
         <img src={bblogo} alt="Bruna Borges logo" className='w-12' />
         {!isMobile && (
@@ -36,7 +40,8 @@ export const Header: React.FC<HeaderProps> = () => {
           items-center
           text-2xl
           ml-2
-          hidden'>
+          hidden
+          txt-title'>
             Bruna Borges
           </span>
         )}

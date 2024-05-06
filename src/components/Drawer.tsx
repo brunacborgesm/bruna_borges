@@ -35,7 +35,7 @@ export default function TemporaryDrawer() {
     return (
         <div>
             <Button onClick={toggleDrawer}>
-                <MenuIcon sx={{ color: '#000' }} />
+                <MenuIcon className='text-cl-orange' />
             </Button>
             <Drawer open={open} onClose={toggleDrawer}>
                 <Box>

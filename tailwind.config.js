@@ -12,13 +12,11 @@ export default {
       },
 
       colors: {
-        'bg-darkpurple': '#654597',
-        'default-white': '#fdfffc',
-        'default-lightpurple': '#ab81cd',
-        'default-darkpurple': '#4f1271',
-        'default-purpleblue': '#574ae2',
-        'default-black': '#070606',
-        'default-pink': '#ac22d3',
+        'bg-darkgreen': '#264653',
+        'cl-green': '#287271',
+        'cl-orange': '#e76f51',
+        'cl-white': '#eaf6ff',
+        'cl-black': '#232528',
       }
     },
   },
