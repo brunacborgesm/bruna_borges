@@ -1,4 +1,3 @@
-import './error.css'
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
 export const Error = () => {

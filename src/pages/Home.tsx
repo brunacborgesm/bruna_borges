@@ -1,43 +1,31 @@
-import './home.css'
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+import { Link } from "react-router-dom"
+import { AboutMe } from "./AboutMe"
 
 export const Home = () => {
   return (
-    <div className='container'>
-      <div className="text-container">
-        <h1 className="primary-title">
-          Portifólio em construção
-        </h1>
+    <div className='flex-col justify-center items-center text-center text-default-white pt-14
+    '>
+      <img src='bruna_borges/profile.png' alt="Imagem de perfil da Bruna Borges" className='rounded-full object-cover w-48 h-48 bg-gray-300 border-8 border-default-darkpurple mx-auto' />
+
+      <h1 className='text-title text-3xl pt-8 leading-10'>Olá, eu sou a Bruna
+      </h1>
+      
+      <h3 className='text-title text-xl'>Front-end Developer</h3>
+
+      <div className='flex flex-col space-y-4 justify-center items-center pt-8'>
+        
+        <a href="bruna_borges/resume.pdf" download>
+          <button className='font-semibold bg-default-darkpurple py-3 px-5 rounded-3xl text-title'>
+            Download CV</button>
+        </a>
+
+        <Link to="/bruna_borges/about-me" className="pb-32">
+          <button className='font-semibold border border-default-darkpurple py-3 px-5 text-body rounded-3xl'>Entrar em contato</button>
+        </Link>
       </div>
-      <h2 className="secondary-title">
-        Uma redefinição de design
-      </h2>
-      <p>Olá! Estou atualizando algumas coisas no meu portifólio e em breve a versão final estará no ar.</p>
-      <div className="buttons-container">
 
-        <div>
-          <a className="button-link" href='https://www.linkedin.com/in/brunacborgesm/' target='_blank'>
-            <LinkedInIcon />
-            LinkedIn
-          </a>
-        </div>
-        <div>
-          <a className="button-link" href='https://github.com/brunacborgesm' target='_blank'>
-            <GitHubIcon />
-            GitHub
-          </a>
-        </div>
-        <div>
-          <a className="button-link" href='mailto:brunaborgesdev@gmail.com' target='_blank'>
-            <EmailIcon />
-            Gmail
-          </a>
-        </div>
-
-
-      </div>
+      <AboutMe />
+      
     </div>
   )
 }
