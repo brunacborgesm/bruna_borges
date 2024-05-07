@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bblogo from '../assets/bb-logo.svg';
-import TemporaryDrawer from '../components/Drawer';
+import TemporaryDrawer from './Drawer';
+
+
 interface HeaderProps {
   links: {
     title: string;
@@ -33,7 +35,7 @@ export const Header: React.FC<HeaderProps> = () => {
       text-body
       '>
       <Link to="/bruna_borges/" className='flex'>
-        <img src={ bblogo } alt="Bruna Borges logo" className='w-12' />
+        <img src={bblogo} alt="Bruna Borges logo" className='w-12' />
         {!isMobile && (
           <span className='
           sm:flex

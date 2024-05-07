@@ -8,7 +8,7 @@ export default {
     extend: {
       fontFamily: {
         title: ['Raleway', 'sans-serif'],
-        body: ['Mulish', 'sans-serif']
+        body: ['Mulish', 'sans-serif'],
       },
 
       colors: {

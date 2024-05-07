@@ -10,11 +10,11 @@ import tsimg from "../assets/ts.png"
 
 export const AboutMe = () => {
   return (
-    <Element id="about-me" name="" className="px-20 element bg-bg-darkgreen flex flex-col h-screen justify-center items-center">
-      <h2 className="text-title text-3xl text-bold">Sobre mim</h2>
+    <Element id="about-me" name="" className="element bg-bg-darkgreen flex flex-col h-screen justify-center items-center">
+      <h2 className="font-title text-4xl text-bold">Sobre mim</h2>
       <div className="border-b-2 border-cl-green w-40 mt-2 mb-14"></div>
-      <p className="text-center">Desenvolvedora apaixonada por criar experiências digitais através do desenvolvimento web, com três anos de experiência. Foco em Front-end com ReactJS e interesse em aprimorar habilidades em Node.js para evoluir para Full-Stack Developer</p>
-      <div className="flex justify-center items-center space-x-9 mx-auto mt-16 ">
+      <p className="text-center text-lg px-10">Desenvolvedora apaixonada por criar experiências digitais através do desenvolvimento web, com três anos de experiência. Foco em Front-end com ReactJS e interesse em aprimorar habilidades em Node.js para evoluir para Full-Stack Developer</p>
+      <div className="flex justify-center items-center space-x-9 mx-auto mt-10 ">
         <img className="w-12 h-12" src={ htmlimg } alt="" />
         <img className="w-12 h-12" src={ csslimg } alt="" />
         <img className="w-12 h-12" src={ jsimg } alt="" />
