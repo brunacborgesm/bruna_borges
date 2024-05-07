@@ -12,9 +12,9 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = () => {
   const links = [
     { title: 'Home', url: '/bruna_borges/' },
-    { title: 'Sobre', url: '/bruna_borges/sobre' },
-    { title: 'Projetos', url: '/bruna_borges/portifolio' },
-    { title: 'Contato', url: '/bruna_borges/contato' }
+    { title: 'Sobre', url: '/bruna_borges/about-me' },
+    { title: 'Portifólio', url: '/bruna_borges/portifolio' },
+    { title: 'Contatos', url: '/bruna_borges/contact' }
   ];
 
   const isMobile = window.innerWidth <600;
@@ -33,7 +33,7 @@ export const Header: React.FC<HeaderProps> = () => {
       text-body
       '>
       <Link to="/bruna_borges/" className='flex'>
-        <img src={bblogo} alt="Bruna Borges logo" className='w-12' />
+        <img src={ bblogo } alt="Bruna Borges logo" className='w-12' />
         {!isMobile && (
           <span className='
           sm:flex

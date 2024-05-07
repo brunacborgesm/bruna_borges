@@ -7,7 +7,7 @@ import { AppRoutes } from './routes/AppRoutes.tsx';
 export const App: React.FC = () => {
   return (
     <Router>
-      <div className='text-body bg-bg-darkgreen text-cl-white' >
+      <div className='text-body bg-bg-darkgreen text-cl-white h-screen' >
         <Header links={[]} />
         <AppRoutes />
       </div>
