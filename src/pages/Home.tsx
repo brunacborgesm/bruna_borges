@@ -4,6 +4,7 @@ import { Portfolio } from "./Portfolio";
 import { Contact } from "./Contact";
 import { Element, scroller } from "react-scroll";
 import bbprofile from '../assets/profile.png';
+import bbresume from '../assets/resume.pdf';
 
 export const Home = () => {
   const scrollToAboutMe = () => {
@@ -26,7 +27,7 @@ export const Home = () => {
 
       <div className='flex flex-col space-y-4 justify-center items-center pt-14 font-title'>
 
-        <a href="bruna_borges/resume.pdf" download>
+        <a href={ bbresume } download>
           <button className='font-semibold bg-cl-orange py-3 px-7 rounded-full font-title text-lg'>
             Download CV</button>
         </a>
