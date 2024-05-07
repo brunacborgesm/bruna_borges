@@ -26,11 +26,11 @@ export default function TemporaryDrawer() {
     };
 
     const list = (
-        <List>
+        <List className='font-title'>
             <p className='text-3xl flex justify-center items-center mb-14 text-cl-green font-bold'>Bem vindo(a) ao meu Potifólio!</p>
             {['Home', 'Sobre', 'Portifólio', 'Contatos'].map((text, index) => (
                 <ListItem className='flex flex-col justify-center items-center text-center text-title text-cl-green mb-10' key={text} onClick={() => handleDrawerItemClick(index)}>
-                    <ListItemText primary={<span className="font-semibold text-4xl">{text}</span>} />
+                    <ListItemText primary={<span className="font-semibold text-4xl font-title cursor-pointer">{text}</span>} />
                 </ListItem>
             ))}
         </List>
