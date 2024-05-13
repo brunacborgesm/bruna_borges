@@ -5,7 +5,7 @@ export const Portfolio = () => {
   return (
     <Element id="portfolio" name="" className="px-20 element bg-bg-darkgreen flex flex-col h-screen justify-center items-center">
 
-    <h2 className="text-4xl font-title text-bold ">Portifólio
+    <h2 className="text-4xl font-title text-bold mt-5">Portifólio
     </h2>
     <div className="border-b-2 border-cl-green w-40 pt-2 mb-20"></div>
     <p className="pb-14 text-lg">
